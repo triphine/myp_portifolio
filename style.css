@@ -1,0 +1,172 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.homeContainer{
+  width: 100%;
+  background-color:#E0E5E9;
+  /* height: 90vh; */
+}
+.headerContainer{
+  /* background-color: white; */
+  height:15vh;
+  width: 100%;
+}
+.navbar {
+
+  display: flex;
+  height: 8vh;
+  width: 100%;
+  background-color: white;
+  padding-left: 22%;
+  padding-top: 3vh;
+
+}
+.navbar a{
+  color: black;
+  margin-left: 180px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  
+  text-decoration: none;
+  /* padding: 0 10px; */
+  
+}
+.navbar img{
+width: 4%;
+border-radius: 80px;
+height: 8vh;
+margin-top: -10px;
+margin-left: -280px;
+
+}
+.circle{
+  width: 50%;
+  
+}
+.description{
+  width: 100%;
+  height: 70vh;
+  /* background-color: gray; */
+  margin-top: 150px;
+  display: flex;
+}
+.description1{
+  width: 45%;
+  height: 70vh;
+  /* background-color: red; */
+  margin-left: 200px;
+  
+}
+.description1 h4{
+  color:#EA564B;
+  
+}
+.description1 h2{
+  margin-top: 20px;
+}
+.description1 p{
+  margin-top: 25px;
+}
+
+.link{
+  width: 45%;
+
+  margin-top: 70px;
+  height: 70vh;
+ 
+}
+
+.link a {
+  background-color:#EA564B ;
+  width: 30%;
+  text-align: center;
+  box-shadow: 4px 4px 4px 4px 4px;
+  height: 5vh;
+  border-radius: 60px;
+  text-decoration: none;
+  font-size: 15px;
+  color:red;
+  
+  
+}
+.picture{
+  width: 50%;
+  
+  
+}
+.picture img{
+  margin-top: -70px;
+  height: 50vh;
+}
+.description3{
+  width: 100%;
+  background-color: white;
+  box-shadow: 6px 6px 6px 6px;
+  height:20vh;
+  display: flex;
+}
+.description3 p{
+  margin-left: 160px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.background-image{
+  width: 100%;
+}
+.background-image h1{
+  background-image: url('image/background.jpg');
+
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  
+}
+.comments{
+  width: 50%;
+  height: 50vh;
+  
+  /* background-color: blue; */
+}
+.comments form{
+  padding-top: 30px;
+  margin-left: 300px;
+}
+.comments input{
+  border:0px ;
+  width: 60%;
+}
+.comments hr{
+  width: 60%;
+  margin-bottom: 15px;
+}
+/* .comments a{
+  margin-left: 300px;
+}
+.contact a{
+  text-decoration: none;
+  color: black;
+} */
+.comments button{
+  color: black;
+      background-color: #EA564B ;
+      height: 5.5vh;
+      border:none;
+      width: 130px;
+      border-radius: 10px;
+      margin-left: 42%;
+}
+.formcontainer{
+  width: 100%;
+  display: flex;
+  margin-left: 550px;
+}
+.icons {
+  width: 50%;
+  background-color: aqua;
+  margin-left: -600px;
+}
